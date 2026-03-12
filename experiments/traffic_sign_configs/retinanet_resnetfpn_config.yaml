@@ -1,0 +1,25 @@
+#runtime:
+ # num_gpus: 1
+
+task:
+  model:
+    num_classes: 128
+
+  train_data:
+    input_path: "dataset/canadian_sign_dataset/train/*"
+    is_training: true
+    global_batch_size: 4
+
+    decoder:
+      type: simple_decoder
+
+  # initialize only the backbone from pretrained weights
+  init_checkpoint_modules: backbone
+
+trainer:
+  train_steps: 100
+  checkpoint_interval: 25
+
+  optimizer_config:
+    optimizer:
+      type: adam

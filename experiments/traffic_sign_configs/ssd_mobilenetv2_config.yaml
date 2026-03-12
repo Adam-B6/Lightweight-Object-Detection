@@ -1,0 +1,51 @@
+runtime:
+  distribution_strategy: one_device
+  num_gpus: 1
+  mixed_precision_dtype: 'float16'
+  loss_scale: 'dynamic'
+
+task:
+  model:
+    num_classes: 128
+    input_size: [512,512,3]
+    backbone:
+      type: 'mobilenet'
+      mobilenet:
+        model_id: 'MobileNetV2'
+        filter_size_scale: 1.0
+    decoder:
+      type: 'fpn'
+      fpn:
+        num_filters: 128
+    head:
+      num_filters: 128
+      num_convs: 4
+  train_data:
+    input_path: "dataset/canadian_sign_dataset/train/*"
+    #label_map: "dataset/canadian_sign_dataset/train/Traffic-Signs_label_map.pbtxt"
+    is_training: true
+    global_batch_size: 16
+    #shuffle_buffer_size: 10    # limit the amount of images shuffled in RAM
+    dtype: 'float16'
+    #parser:
+    #  output_size: [512,512]
+trainer:
+  train_steps: 3115
+  steps_per_loop: 623
+  summary_interval: 623
+  checkpoint_interval: 623
+  optimizer_config:
+    optimizer:
+      type: adamw
+      adamw:
+        weight_decay_rate: 0.01
+    learning_rate:
+      type: 'cosine'
+      cosine:
+        initial_learning_rate: 0.0005
+        decay_steps: 3115
+    warmup:
+      type: 'linear'
+      linear:
+        warmup_steps: 623
+        warmup_learning_rate: 0.00001

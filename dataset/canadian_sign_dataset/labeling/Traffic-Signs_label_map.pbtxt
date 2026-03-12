@@ -1,0 +1,640 @@
+item {
+    name: "Airport",
+    id: 1,
+    display_name: "Airport"
+}
+item {
+    name: "All-Movements-Permitted",
+    id: 2,
+    display_name: "All-Movements-Permitted"
+}
+item {
+    name: "Bicycle-Crossing",
+    id: 3,
+    display_name: "Bicycle-Crossing"
+}
+item {
+    name: "Bicycle-Route",
+    id: 4,
+    display_name: "Bicycle-Route"
+}
+item {
+    name: "Bicycles-Excepted",
+    id: 5,
+    display_name: "Bicycles-Excepted"
+}
+item {
+    name: "Bus-Station",
+    id: 6,
+    display_name: "Bus-Station"
+}
+item {
+    name: "Buses-Excepted",
+    id: 7,
+    display_name: "Buses-Excepted"
+}
+item {
+    name: "Carpool-Parking",
+    id: 8,
+    display_name: "Carpool-Parking"
+}
+item {
+    name: "Cattle-Crossing",
+    id: 9,
+    display_name: "Cattle-Crossing"
+}
+item {
+    name: "Checkerboard",
+    id: 10,
+    display_name: "Checkerboard"
+}
+item {
+    name: "Chevron-Arrow",
+    id: 11,
+    display_name: "Chevron-Arrow"
+}
+item {
+    name: "Construction-Ahead",
+    id: 12,
+    display_name: "Construction-Ahead"
+}
+item {
+    name: "Construction-Begins",
+    id: 13,
+    display_name: "Construction-Begins"
+}
+item {
+    name: "Construction-Ends",
+    id: 14,
+    display_name: "Construction-Ends"
+}
+item {
+    name: "Cross-At-Crossover",
+    id: 15,
+    display_name: "Cross-At-Crossover"
+}
+item {
+    name: "Cross-On-Green",
+    id: 16,
+    display_name: "Cross-On-Green"
+}
+item {
+    name: "Cross-On-Signal",
+    id: 17,
+    display_name: "Cross-On-Signal"
+}
+item {
+    name: "Cross-Other-Side",
+    id: 18,
+    display_name: "Cross-Other-Side"
+}
+item {
+    name: "Deer-Crossing",
+    id: 19,
+    display_name: "Deer-Crossing"
+}
+item {
+    name: "Detour-Ahead",
+    id: 20,
+    display_name: "Detour-Ahead"
+}
+item {
+    name: "Detour-Marker",
+    id: 21,
+    display_name: "Detour-Marker"
+}
+item {
+    name: "Divided-Road-Begins",
+    id: 22,
+    display_name: "Divided-Road-Begins"
+}
+item {
+    name: "Divided-Road-Ends",
+    id: 23,
+    display_name: "Divided-Road-Ends"
+}
+item {
+    name: "Do-Not-Enter",
+    id: 24,
+    display_name: "Do-Not-Enter"
+}
+item {
+    name: "Do-Not-Turn-Left",
+    id: 25,
+    display_name: "Do-Not-Turn-Left"
+}
+item {
+    name: "Do-Not-Turn-Right",
+    id: 26,
+    display_name: "Do-Not-Turn-Right"
+}
+item {
+    name: "Drawbridge",
+    id: 27,
+    display_name: "Drawbridge"
+}
+item {
+    name: "Except-Authorized-Vehicles",
+    id: 28,
+    display_name: "Except-Authorized-Vehicles"
+}
+item {
+    name: "Fallen-Rock",
+    id: 29,
+    display_name: "Fallen-Rock"
+}
+item {
+    name: "Ferry",
+    id: 30,
+    display_name: "Ferry"
+}
+item {
+    name: "Fire-Hydrant",
+    id: 31,
+    display_name: "Fire-Hydrant"
+}
+item {
+    name: "Firetruck-Entrance",
+    id: 32,
+    display_name: "Firetruck-Entrance"
+}
+item {
+    name: "HOV",
+    id: 33,
+    display_name: "HOV"
+}
+item {
+    name: "Hiker-Crossing",
+    id: 34,
+    display_name: "Hiker-Crossing"
+}
+item {
+    name: "Horse-Drawn-Vehicle-Crossing",
+    id: 35,
+    display_name: "Horse-Drawn-Vehicle-Crossing"
+}
+item {
+    name: "Horseback-Crossing",
+    id: 36,
+    display_name: "Horseback-Crossing"
+}
+item {
+    name: "Hospital",
+    id: 37,
+    display_name: "Hospital"
+}
+item {
+    name: "Intersection",
+    id: 38,
+    display_name: "Intersection"
+}
+item {
+    name: "Island-Split",
+    id: 39,
+    display_name: "Island-Split"
+}
+item {
+    name: "Keep-Right",
+    id: 40,
+    display_name: "Keep-Right"
+}
+item {
+    name: "Keep-Right-Of-Island",
+    id: 41,
+    display_name: "Keep-Right-Of-Island"
+}
+item {
+    name: "Lane-Closure",
+    id: 42,
+    display_name: "Lane-Closure"
+}
+item {
+    name: "Left-Lane-Ends",
+    id: 43,
+    display_name: "Left-Lane-Ends"
+}
+item {
+    name: "Left-Turn-Signal",
+    id: 44,
+    display_name: "Left-Turn-Signal"
+}
+item {
+    name: "Left-or-Right-Turn-Only",
+    id: 45,
+    display_name: "Left-or-Right-Turn-Only"
+}
+item {
+    name: "Low-Clearance",
+    id: 46,
+    display_name: "Low-Clearance"
+}
+item {
+    name: "Moose-Crossing",
+    id: 47,
+    display_name: "Moose-Crossing"
+}
+item {
+    name: "Narrow-Bridge",
+    id: 48,
+    display_name: "Narrow-Bridge"
+}
+item {
+    name: "No-Bicycles",
+    id: 49,
+    display_name: "No-Bicycles"
+}
+item {
+    name: "No-Left-On-Red",
+    id: 50,
+    display_name: "No-Left-On-Red"
+}
+item {
+    name: "No-Parking",
+    id: 51,
+    display_name: "No-Parking"
+}
+item {
+    name: "No-Passing",
+    id: 52,
+    display_name: "No-Passing"
+}
+item {
+    name: "No-Passing-Bicycles",
+    id: 53,
+    display_name: "No-Passing-Bicycles"
+}
+item {
+    name: "No-Pedestrians",
+    id: 54,
+    display_name: "No-Pedestrians"
+}
+item {
+    name: "No-Pedestrians-Or-Bicycles",
+    id: 55,
+    display_name: "No-Pedestrians-Or-Bicycles"
+}
+item {
+    name: "No-Right-On-Red",
+    id: 56,
+    display_name: "No-Right-On-Red"
+}
+item {
+    name: "No-Snowmobiles",
+    id: 57,
+    display_name: "No-Snowmobiles"
+}
+item {
+    name: "No-Standing",
+    id: 58,
+    display_name: "No-Standing"
+}
+item {
+    name: "No-Stopping",
+    id: 59,
+    display_name: "No-Stopping"
+}
+item {
+    name: "No-Straight-Through",
+    id: 60,
+    display_name: "No-Straight-Through"
+}
+item {
+    name: "No-Tractors",
+    id: 61,
+    display_name: "No-Tractors"
+}
+item {
+    name: "No-Trucks-This-Lane",
+    id: 62,
+    display_name: "No-Trucks-This-Lane"
+}
+item {
+    name: "No-U-Turn",
+    id: 63,
+    display_name: "No-U-Turn"
+}
+item {
+    name: "OPP-Station",
+    id: 64,
+    display_name: "OPP-Station"
+}
+item {
+    name: "Object-Marker",
+    id: 65,
+    display_name: "Object-Marker"
+}
+item {
+    name: "One-Way",
+    id: 66,
+    display_name: "One-Way"
+}
+item {
+    name: "Parking-Allowed",
+    id: 67,
+    display_name: "Parking-Allowed"
+}
+item {
+    name: "Pass-With-Care",
+    id: 68,
+    display_name: "Pass-With-Care"
+}
+item {
+    name: "Passenger-Railway-Station",
+    id: 69,
+    display_name: "Passenger-Railway-Station"
+}
+item {
+    name: "Passing-Allowed",
+    id: 70,
+    display_name: "Passing-Allowed"
+}
+item {
+    name: "Paved-Surface-Ends",
+    id: 71,
+    display_name: "Paved-Surface-Ends"
+}
+item {
+    name: "Pavement-Milled",
+    id: 72,
+    display_name: "Pavement-Milled"
+}
+item {
+    name: "Pavement-Narrows",
+    id: 73,
+    display_name: "Pavement-Narrows"
+}
+item {
+    name: "Pedestrian-Crossing",
+    id: 74,
+    display_name: "Pedestrian-Crossing"
+}
+item {
+    name: "Pedestrian-and-Bicycle-Crossing",
+    id: 75,
+    display_name: "Pedestrian-and-Bicycle-Crossing"
+}
+item {
+    name: "Playground-Ahead",
+    id: 76,
+    display_name: "Playground-Ahead"
+}
+item {
+    name: "Private-Road",
+    id: 77,
+    display_name: "Private-Road"
+}
+item {
+    name: "Public-Telephone",
+    id: 78,
+    display_name: "Public-Telephone"
+}
+item {
+    name: "Railway-Crossing",
+    id: 79,
+    display_name: "Railway-Crossing"
+}
+item {
+    name: "Reverse-Curve",
+    id: 80,
+    display_name: "Reverse-Curve"
+}
+item {
+    name: "Right-Lane-Ends",
+    id: 81,
+    display_name: "Right-Lane-Ends"
+}
+item {
+    name: "Road-Closed",
+    id: 82,
+    display_name: "Road-Closed"
+}
+item {
+    name: "Road-Fork-To-Left",
+    id: 83,
+    display_name: "Road-Fork-To-Left"
+}
+item {
+    name: "Road-Fork-To-Right",
+    id: 84,
+    display_name: "Road-Fork-To-Right"
+}
+item {
+    name: "Road-Work",
+    id: 85,
+    display_name: "Road-Work"
+}
+item {
+    name: "Roundabout-Ahead",
+    id: 86,
+    display_name: "Roundabout-Ahead"
+}
+item {
+    name: "School-Bus-Entrance",
+    id: 87,
+    display_name: "School-Bus-Entrance"
+}
+item {
+    name: "School-Bus-Loading-Zone",
+    id: 88,
+    display_name: "School-Bus-Loading-Zone"
+}
+item {
+    name: "School-Bus-Stop-Ahead",
+    id: 89,
+    display_name: "School-Bus-Stop-Ahead"
+}
+item {
+    name: "School-Crossing",
+    id: 90,
+    display_name: "School-Crossing"
+}
+item {
+    name: "Share-Road",
+    id: 91,
+    display_name: "Share-Road"
+}
+item {
+    name: "Shared-Pathway",
+    id: 92,
+    display_name: "Shared-Pathway"
+}
+item {
+    name: "Sharp-Bend",
+    id: 93,
+    display_name: "Sharp-Bend"
+}
+item {
+    name: "Sharp-Reverse-Curve",
+    id: 94,
+    display_name: "Sharp-Reverse-Curve"
+}
+item {
+    name: "Sharp-Turn",
+    id: 95,
+    display_name: "Sharp-Turn"
+}
+item {
+    name: "Slight-Bend",
+    id: 96,
+    display_name: "Slight-Bend"
+}
+item {
+    name: "Slippery-Road",
+    id: 97,
+    display_name: "Slippery-Road"
+}
+item {
+    name: "Snowmobile-Crossing",
+    id: 98,
+    display_name: "Snowmobile-Crossing"
+}
+item {
+    name: "Snowmobile-Route",
+    id: 99,
+    display_name: "Snowmobile-Route"
+}
+item {
+    name: "Speed-Hump",
+    id: 100,
+    display_name: "Speed-Hump"
+}
+item {
+    name: "Speed-Limit-10",
+    id: 101,
+    display_name: "Speed-Limit-10"
+}
+item {
+    name: "Speed-Limit-100",
+    id: 102,
+    display_name: "Speed-Limit-100"
+}
+item {
+    name: "Speed-Limit-110",
+    id: 103,
+    display_name: "Speed-Limit-110"
+}
+item {
+    name: "Speed-Limit-20",
+    id: 104,
+    display_name: "Speed-Limit-20"
+}
+item {
+    name: "Speed-Limit-30",
+    id: 105,
+    display_name: "Speed-Limit-30"
+}
+item {
+    name: "Speed-Limit-40",
+    id: 106,
+    display_name: "Speed-Limit-40"
+}
+item {
+    name: "Speed-Limit-50",
+    id: 107,
+    display_name: "Speed-Limit-50"
+}
+item {
+    name: "Speed-Limit-60",
+    id: 108,
+    display_name: "Speed-Limit-60"
+}
+item {
+    name: "Speed-Limit-70",
+    id: 109,
+    display_name: "Speed-Limit-70"
+}
+item {
+    name: "Speed-Limit-80",
+    id: 110,
+    display_name: "Speed-Limit-80"
+}
+item {
+    name: "Speed-Limit-90",
+    id: 111,
+    display_name: "Speed-Limit-90"
+}
+item {
+    name: "Steep-Hill",
+    id: 112,
+    display_name: "Steep-Hill"
+}
+item {
+    name: "Stop",
+    id: 113,
+    display_name: "Stop"
+}
+item {
+    name: "Stop-Ahead",
+    id: 114,
+    display_name: "Stop-Ahead"
+}
+item {
+    name: "Stop-For-Pedestrians",
+    id: 115,
+    display_name: "Stop-For-Pedestrians"
+}
+item {
+    name: "Stop-For-School-Bus",
+    id: 116,
+    display_name: "Stop-For-School-Bus"
+}
+item {
+    name: "Temporary-Merge",
+    id: 117,
+    display_name: "Temporary-Merge"
+}
+item {
+    name: "Traffic-Control-Person",
+    id: 118,
+    display_name: "Traffic-Control-Person"
+}
+item {
+    name: "Traffic-Light-Ahead",
+    id: 119,
+    display_name: "Traffic-Light-Ahead"
+}
+item {
+    name: "Truck-Entrance",
+    id: 120,
+    display_name: "Truck-Entrance"
+}
+item {
+    name: "Truck-Route",
+    id: 121,
+    display_name: "Truck-Route"
+}
+item {
+    name: "Two-way-Left-Turn",
+    id: 122,
+    display_name: "Two-way-Left-Turn"
+}
+item {
+    name: "U-Turn",
+    id: 123,
+    display_name: "U-Turn"
+}
+item {
+    name: "Uneven-Pavement",
+    id: 124,
+    display_name: "Uneven-Pavement"
+}
+item {
+    name: "Water-Over-Road",
+    id: 125,
+    display_name: "Water-Over-Road"
+}
+item {
+    name: "Winding-Road",
+    id: 126,
+    display_name: "Winding-Road"
+}
+item {
+    name: "Yield",
+    id: 127,
+    display_name: "Yield"
+}
+item {
+    name: "Yield-Ahead",
+    id: 128,
+    display_name: "Yield-Ahead"
+}

@@ -1,0 +1,32 @@
+runtime:
+  distribution_strategy: mirrored
+  num_gpus: 1
+
+task:
+  model:
+    num_classes: 128
+    input_size: [512,512,3]
+
+    backbone:
+      type: mobilenet
+      mobilenet:
+        model_id: MobileNetV2
+        filter_size_scale: 1.0
+
+    decoder:
+      type: fpn
+
+  train_data:
+    input_path: "dataset/canadian_sign_dataset/train/Traffic-Signs.tfrecord"
+    is_training: true
+    global_batch_size: 4
+    parser:
+      output_size: [512,512]
+    decoder:
+      type: tf_example
+      label_map: "dataset/canadian_sign_dataset/train/Traffic-Signs_label_map.pbtxt"
+
+trainer:
+  train_steps: 100
+  #summary_interval: 100
+  checkpoint_interval: 10
