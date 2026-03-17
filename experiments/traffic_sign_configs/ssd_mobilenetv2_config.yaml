@@ -5,6 +5,8 @@ runtime:
   loss_scale: 'dynamic'
 
 task:
+  init_checkpoint: 'experiments/outputs/train_canadian_dataset/mobilenetv2_coco'
+  init_checkpoint_modules: all
   model:
     num_classes: 128
     input_size: [512,512,3]
